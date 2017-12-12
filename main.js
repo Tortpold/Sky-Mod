@@ -1,5 +1,5 @@
 const Discord = require('discord.js');
-const token = 'Mzg5NDU2MDk2Mjg2MzQzMTY4.DQ70xQ.sUflDuyt6CKn7kyVhtT3cbIORxQ';
+const token = '';  
 
 var bot = new Discord.Client();
 var prefix = ("&")
@@ -9,7 +9,7 @@ bot.on('ready', () =>{
     console.log("Bot Ready !");
 })
 
-bot.login('Mzg5NDU2MDk2Mjg2MzQzMTY4.DQ70xQ.sUflDuyt6CKn7kyVhtT3cbIORxQ');
+bot.login('')
 
 bot.on('message', message => {
     if (message.content === prefix + "ping"){
